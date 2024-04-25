@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 import type { FC } from "react";
 import { TopPagePresenter } from "@/components/pages/HomePresenter";
 
-export const Top: FC = () => {
+export default function Top() {
     const contents = {
         features: [
             "20yo (2024/04)",
@@ -24,5 +24,3 @@ export const Top: FC = () => {
     };
     return <TopPagePresenter contents={contents} />;
 };
-
-export default Top;
