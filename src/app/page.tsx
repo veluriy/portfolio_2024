@@ -1,6 +1,3 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-import type { FC } from "react";
 import { TopPagePresenter } from "@/components/pages/HomePresenter";
 
 export default function Top() {
@@ -23,4 +20,4 @@ export default function Top() {
         ],
     };
     return <TopPagePresenter contents={contents} />;
-};
+}

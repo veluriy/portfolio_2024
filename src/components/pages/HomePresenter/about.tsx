@@ -1,5 +1,4 @@
 import { Box, List, ListIcon, ListItem, Stack, Text } from "@chakra-ui/react";
-import Image from "next/image";
 import type { FC } from "react";
 import { theme } from "../../../theme/theme";
 import classes from "./style.module.css";

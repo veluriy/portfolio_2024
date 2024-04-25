@@ -1,5 +1,3 @@
-import { theme } from "@/theme/theme";
-import { ChakraProvider } from "@chakra-ui/react";
 import Provider from "./Provider";
 
 export const metadata = {
