@@ -55,7 +55,7 @@ export const TopPagePresenter: FC<Props> = (props: Props) => {
                         <ListItem display="flex" alignItems="center">
                             <FiGithub color={theme.colors.custom.primary} />
                             <Link
-                                href="https://github.com/veluriya"
+                                href="https://github.com/veluriy"
                                 color={theme.colors.custom.primary}
                                 ml="4px"
                             >
