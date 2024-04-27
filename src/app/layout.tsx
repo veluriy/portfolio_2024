@@ -1,5 +1,5 @@
 import Provider from "./Provider";
-import _metadata from "../../data/metadata/introduce.json";
+import _metadata from "../../data/metadata/data.json";
 
 export const metadata = _metadata;
 

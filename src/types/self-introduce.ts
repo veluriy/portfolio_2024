@@ -9,4 +9,4 @@ export interface TopPageContentType {
     gh_uid: number;
     features: string[];
     about: AboutType[];
-};
+}

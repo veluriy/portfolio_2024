@@ -3,7 +3,7 @@ import type { FC } from "react";
 import { theme } from "../../../theme/theme";
 import classes from "./style.module.css";
 import { MdCheckCircle } from "react-icons/md";
-import { TopPageContentType } from "@/types/top";
+import { TopPageContentType } from "@/types/self-introduce";
 
 type Props = {
     content: TopPageContentType;

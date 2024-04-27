@@ -11,7 +11,7 @@ import {
 import { AboutMe } from "./about";
 import { Item } from "./item";
 import { FiGithub } from "react-icons/fi";
-import { TopPageContentType } from "../../../types/top";
+import { TopPageContentType } from "../../../types/self-introduce";
 import { theme } from "@/theme/theme";
 
 type Props = {
