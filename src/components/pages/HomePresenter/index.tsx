@@ -1,5 +1,4 @@
 import type { FC } from "react";
-import { Header } from "../../header/header";
 import {
     Box,
     Card,
@@ -12,23 +11,21 @@ import {
 import { AboutMe } from "./about";
 import { Item } from "./item";
 import { FiGithub } from "react-icons/fi";
-import { MyHead } from "../../head/head";
 import { TopPageContentType } from "../../../types/top";
 import { theme } from "@/theme/theme";
 
 type Props = {
-    contents: TopPageContentType;
+    content: TopPageContentType;
 };
 
 export const TopPagePresenter: FC<Props> = (props: Props) => {
-    const About = props.contents.about.map((about) => (
+    const About = props.content.about.map((about) => (
         <Box mt="16px" mx="32px" key={about.title}>
             <Item title={about.title} body={about.content} />
         </Box>
     ));
     return (
         <>
-            <MyHead title="OKのサイト" />
             {/*<Header />*/}
             <Card m="16px 16px 0" boxShadow="none">
                 <Text
@@ -40,7 +37,7 @@ export const TopPagePresenter: FC<Props> = (props: Props) => {
                 >
                     About Me
                 </Text>
-                <AboutMe features={props.contents.features} />
+                <AboutMe content={props.content} />
                 {About}
                 <Box m="16px">
                     <Text
@@ -55,7 +52,7 @@ export const TopPagePresenter: FC<Props> = (props: Props) => {
                         <ListItem display="flex" alignItems="center">
                             <FiGithub color={theme.colors.custom.primary} />
                             <Link
-                                href="https://github.com/veluriy"
+                                href={`https://github.com/${props.content.gh_uname}`}
                                 color={theme.colors.custom.primary}
                                 ml="4px"
                             >
