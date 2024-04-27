@@ -1,4 +1,4 @@
-import { Box, List, ListItem, propNames, Text } from "@chakra-ui/react";
+import { Box, Text } from "@chakra-ui/react";
 import { FC } from "react";
 import { theme } from "../../../theme/theme";
 

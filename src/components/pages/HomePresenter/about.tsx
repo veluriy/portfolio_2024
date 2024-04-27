@@ -1,15 +1,16 @@
-import { Box, List, ListIcon, ListItem, Stack, Text } from "@chakra-ui/react";
+import { Box, List, ListItem, Stack, Text } from "@chakra-ui/react";
 import type { FC } from "react";
 import { theme } from "../../../theme/theme";
 import classes from "./style.module.css";
 import { MdCheckCircle } from "react-icons/md";
+import { TopPageContentType } from "@/types/self-introduce";
 
 type Props = {
-    features: string[];
+    content: TopPageContentType;
 };
 
 export const AboutMe: FC<Props> = (props) => {
-    const featuresChildren = props.features.map((feature) => {
+    const featuresChildren = props.content.features.map((feature) => {
         return (
             <ListItem key={feature} display="flex" pt="4px">
                 <Box display="flex">
@@ -44,12 +45,12 @@ export const AboutMe: FC<Props> = (props) => {
                 fontWeight="bold"
                 ml="8px"
             >
-                veluriya
+                {props.content.name}
             </Text>
             <Box display="flex">
                 <Box ml="8px">
                     <img
-                        src="https://avatars.githubusercontent.com/u/64892129" // GitHubのアイコンを使用
+                        src={`https://avatars.githubusercontent.com/u/${props.content.gh_uid}`} // GitHubのアイコンを使用
                         alt="アイコン"
                         width="100"
                         height="100"
