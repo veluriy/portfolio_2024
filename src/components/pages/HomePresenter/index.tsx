@@ -1,13 +1,5 @@
 import type { FC } from "react";
-import {
-    Box,
-    Card,
-    Link,
-    List,
-    ListIcon,
-    ListItem,
-    Text,
-} from "@chakra-ui/react";
+import { Box, Card, Link, List, ListItem, Text } from "@chakra-ui/react";
 import { AboutMe } from "./about";
 import { Item } from "./item";
 import { FiGithub } from "react-icons/fi";
