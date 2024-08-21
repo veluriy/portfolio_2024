@@ -18,8 +18,8 @@ export const theme = extendTheme({
     },
     colors: {
         custom: {
-            primary: "#F6AD55",
-            primary_light: "#FEEBC8",
+            primary: "#72C2F9",
+            primary_light: "#DCF3FE",
             font_default_color: "#000000f1",
         },
     },
