@@ -1,21 +1,16 @@
 {
-    "name": "Oka, T",
-    "gh_uname": "veluriy",
-    "gh_uid": 64892129,
-    "features": [
-        "20y.o. (2024/08)",
-        "studying Mathematics and ML",
-        "programmer",
-        "そろそろ日本語で書きますね"
-    ],
-    "about": [
-        {
-            "title": "最近は...",
-            "content": "研究しています。"
-        },
-        {
-            "title": "趣味について",
-            "content": "息抜きに筋トレをすることが増えました。背中を広くしたい。"
-        }
-    ]
+	"name": "Oka. T",
+	"gh_uname": "veluriy",
+	"gh_uid": 64892129,
+	"features": ["21歳 (2025/05)", "主に機械学習・制御理論・数学", "学生"],
+	"about": [
+		{
+			"title": "最近は...",
+			"content": "機械学習に関する研究と制御理論に関する研究をしています。"
+		},
+		{
+			"title": "趣味について",
+			"content": "息抜きに筋トレをすることが増えました。"
+		}
+	]
 }
